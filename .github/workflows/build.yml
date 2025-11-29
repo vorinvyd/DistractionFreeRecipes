@@ -27,7 +27,7 @@ jobs:
           gradle-version: 8.12
         
       - name: Upload mod jars
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mod-jars
           path: build/libs/latest
